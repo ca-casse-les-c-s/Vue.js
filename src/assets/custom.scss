@@ -1,5 +1,5 @@
-$navbar-dark-color: hsla(157, 95%, 64%, 0.788);
-$primary: hsla(157, 95%, 64%, 0.788);
+$navbar-dark-color: hsla(10, 100%, 50%, 0.788);
+$primary: hsla(292, 100%, 50%, 0.788);
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
@@ -9,4 +9,12 @@ $primary: hsla(157, 95%, 64%, 0.788);
 
 header {
   margin-bottom: 5.5rem;
+}
+
+.carousel-control-prev-icon {
+  background-color: red;
+}
+
+.carousel-control-next-icon {
+  background-color: red;
 }
