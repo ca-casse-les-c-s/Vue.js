@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <RouterLink class="navbar-brand" to="/">Mon site</RouterLink>
+      <RouterLink class="navbar-brand" to="/">Accueil</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router';
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <NavLink url="/" text="Accueil" />
+          <NavLink url="/projets" text="Projets" />
           <NavLink url="/about" text="À propos" />
         </ul>
       </div>
